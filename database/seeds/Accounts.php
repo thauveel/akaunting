@@ -33,7 +33,7 @@ class Accounts extends Seeder
             'company_id' => $company_id,
             'name' => trans('demo.accounts.cash'),
             'number' => '1',
-            'currency_code' => 'MVR',
+            'currency_code' => 'USD',
             'bank_name' => trans('demo.accounts.cash'),
             'enabled' => '1',
             'created_from' => 'core::seed',
