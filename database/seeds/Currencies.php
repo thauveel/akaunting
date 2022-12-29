@@ -33,14 +33,14 @@ class Currencies extends Seeder
             [
                 'company_id' => $company_id,
                 'name' => trans('demo.currencies.usd'),
-                'code' => 'USD',
+                'code' => 'MVR',
                 'rate' => '1.00',
                 'enabled' => '1',
-                'precision' => config('money.USD.precision'),
-                'symbol' => config('money.USD.symbol'),
-                'symbol_first' => config('money.USD.symbol_first'),
-                'decimal_mark' => config('money.USD.decimal_mark'),
-                'thousands_separator' => config('money.USD.thousands_separator'),
+                'precision' => config('money.MVR.precision'),
+                'symbol' => config('money.MVR.symbol'),
+                'symbol_first' => config('money.MVR.symbol_first'),
+                'decimal_mark' => config('money.MVR.decimal_mark'),
+                'thousands_separator' => config('money.MVR.thousands_separator'),
             ],
         ];
 
